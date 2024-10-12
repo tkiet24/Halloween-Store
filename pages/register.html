@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="register-form">
+      <h1>Register</h1>
+
+      <input type="text" placeholder="Email" id="register-email" />
+      <p id="register-email-err"></p>
+
+      <input type="password" placeholder="Password" id="register-password" />
+      <p id="register-password-err"></p>
+
+      <div class="btn" id="register-btn">
+        <span>submit</span>
+      </div>
+      <div class="text-container">
+        <span>Already have an account?<a href="./login.html"> Log in</a></span>
+      </div>
+    </div>
+
+    <script type="module" src="../js/firebase-init.js"></script>
+    <script type="module" src="../js/login.js"></script>
+  </body>
+</html>

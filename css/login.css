@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imgs/about-img.webp);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  /* animation: animate 30s infinite; */
+}
+
+/* @keyframes animate {
+  0% {
+    background-image: url(../pictures/families-img/happy-family.jpg);
+  }
+  16.666667% {
+    background-image: url(../pictures/families-img/happy-family.jpg);
+  }
+
+  16.766667% {
+    background-image: url(../pictures/families-img/big-family.jpg);
+  }
+
+  33.333334% {
+    background-image: url(../pictures/families-img/big-family.jpg);
+  }
+  33.433334% {
+    background-image: url(../pictures/families-img/men-family.jpg);
+  }
+  50.000001% {
+    background-image: url(../pictures/families-img/men-family.jpg);
+  }
+
+  50.100001% {
+    background-image: url(../pictures/families-img/lesbian-family.jpg);
+  }
+
+  66.666668% {
+    background-image: url(../pictures/families-img/lesbian-family.jpg);
+  }
+  66.766668% {
+    background-image: url(../pictures/families-img/single-dad.jpg);
+  }
+  83.333335% {
+    background-image: url(../pictures/families-img/single-dad.jpg);
+  }
+  83.433335% {
+    background-image: url(../pictures/families-img/single-mom.jpg);
+  }
+  100% {
+    background-image: url(../pictures/families-img/single-mom.jpg);
+  }
+} */
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: rgb(255 255 255/70%);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.7);
+}
+
+.login-form h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 30px auto;
+}
+
+.login-form input {
+  display: block;
+  width: 80%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  margin: 5px auto;
+  background-color: transparent;
+  outline: none;
+}
+
+/* Error */
+.login-form p {
+  font-size: 12px;
+  color: red;
+  padding: 3px;
+  text-align: left;
+  margin: 0 0 20px 30px;
+}
+
+.login-form .btn {
+  width: 150px;
+  height: 35px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 15px auto;
+  background-color: #ee8959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.login-form .btn:hover,
+.btn:focus,
+.btn:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.login-form .btn span {
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.login-form span {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login-form .text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form span a {
+  font-size: 16px;
+  color: #ee8959;
+}
